@@ -12,7 +12,7 @@ public class Human {
         this.age = age;
         this.height = height;
         this.weight = weight;
-
+       System.out.print();
 
     }
     public void say (){
