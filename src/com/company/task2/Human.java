@@ -1,11 +1,11 @@
 package com.company.task2;
 
 public class Human {
-    public String name;
+    private String name;
 
-    public int age;
-    public double height;
-    public double weight;
+    private int age;
+    private double height;
+    private double weight;
 
     public Human (String name,int age,double height, double weight ){
         this.name = name;

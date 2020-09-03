@@ -1,4 +1,6 @@
 package com.company.task2;
 
-public class Name {
+public class Name  {
+
+
 }
