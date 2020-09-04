@@ -6,6 +6,9 @@ public class Girl extends Human {
         super(name, age, height, weight);
         this.hobby= hobby;
     }
+    public void getInfo(){
+        hobby.info();
+    }
 
     @Override
     public void say() {
