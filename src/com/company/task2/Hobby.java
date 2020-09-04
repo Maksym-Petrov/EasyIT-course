@@ -10,9 +10,10 @@ public class Hobby {
         this.name = name;
         this.years= years;
         this.description = description;
+
     }
 
     public void info (){
-        System.out.println("Hobby:" + name + "years:" + years+ "description:"+ description);
+        System.out.println("Hobby:" + name + " years: " + years + " description:"+ description);
     }
 }
