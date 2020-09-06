@@ -11,6 +11,7 @@ public class Girl extends Human {
     public void getInfo(){
         hobby.info();
     }
+    public void getInf(){friend.inf();}
 
     @Override
     public void say() {

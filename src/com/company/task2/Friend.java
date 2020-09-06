@@ -10,8 +10,8 @@ public class Friend {
         this.years= years;
         this.say = say;
     }
-    public void info (){
-        System.out.println("Hobby:" + name + " years: " + years + " say:"+ say);
+    public void inf (){
+        System.out.println("Friend:" + name + " years: " + years + " say:"+ say);
     }
 
 }

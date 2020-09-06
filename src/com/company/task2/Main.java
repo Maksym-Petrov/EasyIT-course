@@ -8,7 +8,7 @@ public class Main {
        Girl girl = new Girl("Anna",19,1.79,60,hobby,friend);
        girl.say();
         girl.getInfo();
-        //Как вывести друга в терминал ?
+        girl.getInf();
 
        Human boy1= new Boy("Jack",20,1.85,75);
        boy1.say();
