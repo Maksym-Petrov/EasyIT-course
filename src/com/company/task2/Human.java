@@ -3,7 +3,6 @@ package com.company.task2;
 public class Human {
     private String name;
     private Hobby hobby;
-    private Friend friend;
     private int age;
     private double height;
     private double weight;
@@ -13,15 +12,19 @@ public class Human {
         this.age = age;
         this.height = height;
         this.weight = weight;
-        this.friend = friend;
+
         this.hobby= hobby;
 
 
     }
+
+    public Human() {
+    }
+
     public void getInfo(){
         hobby.info();
     }
-    public void getInf(){friend.inf();}
+
 
 
 
@@ -34,4 +37,6 @@ public class Human {
         System.out.println("Name:"+name+ "\n"+ "Age:" + age + "\n"+ "Height:" +  height + "\n"+"Weight:"  + weight+"\n");
     }
 
+    public void getInf() {
+    }
 }
