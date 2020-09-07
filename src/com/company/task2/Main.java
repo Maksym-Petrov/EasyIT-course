@@ -3,16 +3,18 @@ package com.company.task2;
 public class Main {
 
     public static void main(String[] args) {
-        Friend friend = new Friend("Harry",13,"I am friend");
-         Hobby hobby = new Hobby(" football", 2," The game where players kick the ball");
-         Girl girl = new Girl("Anna",19,1.79,60,hobby,friend);
+
+         Girl girl = new Girl("Anna",19,1.79,60,
+                 new Hobby(" football", 2," The game where players kick the ball"),
+                 new Friend("Harry",13,"I am friend"));
           girl.say();
         girl.getInfo();
          girl.getInf();
 
-        friend = new Friend("Jena", 13, "I am friend");
-      hobby = new Hobby(" basketball", 2," The game where players kick the ball");
-        Human boy= new Boy("Jack",20,1.85,75,hobby,friend);
+
+        Human boy= new Boy("Jack",20,1.85,75,
+                new Hobby(" basketball", 2," The game where players kick the ball"),
+                new Friend("Jena", 13, "I am friend") );
         boy.say();
         boy.getInfo();
         boy.getInf();
