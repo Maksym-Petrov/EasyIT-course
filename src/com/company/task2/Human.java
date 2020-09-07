@@ -1,6 +1,7 @@
 package com.company.task2;
 
 public class Human {
+    private Friend friend;
     private String name;
     private Hobby hobby;
     private int age;
@@ -12,31 +13,22 @@ public class Human {
         this.age = age;
         this.height = height;
         this.weight = weight;
-
         this.hobby= hobby;
-
-
+        this.friend = friend;
     }
 
-    public Human() {
-    }
+
+
 
     public void getInfo(){
         hobby.info();
     }
-
-
-
-
-
-
     public void say (){
-
-
 
         System.out.println("Name:"+name+ "\n"+ "Age:" + age + "\n"+ "Height:" +  height + "\n"+"Weight:"  + weight+"\n");
     }
 
     public void getInf() {
+        friend.inf();
     }
 }

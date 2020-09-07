@@ -14,7 +14,7 @@ public class Main {
 
         Human boy= new Boy("Jack",20,1.85,75,
                 new Hobby(" basketball", 2," The game where players kick the ball"),
-                new Friend("Jena", 13, "I am friend") );
+                new Friend(" lena",  13, " I am friend") );
         boy.say();
         boy.getInfo();
         boy.getInf();
